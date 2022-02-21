@@ -1,0 +1,37 @@
+{
+	"name": "elightup/twig",
+	"type": "library",
+	"config": {
+		"prepend-autoloader": false
+	},
+	"autoload": {
+		"psr-4": {
+			"eLightUp\\": "src/"
+		}
+	},
+	"require": {
+		"twig/twig": "^3.3"
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"mozart compose",
+			"composer dump-autoload"
+		],
+		"post-update-cmd": [
+			"mozart compose",
+			"composer dump-autoload"
+		]
+	},
+	"extra": {
+		"mozart": {
+			"dep_namespace": "eLightUp\\",
+			"dep_directory": "/src/",
+			"classmap_directory": "/src/classes/",
+			"classmap_prefix": "eLightUp_",
+			"packages": [
+				"twig/twig"
+			],
+			"delete_vendor_directories": true
+		}
+	}
+}
