@@ -9,9 +9,6 @@
 			"eLightUp\\": "src/"
 		}
 	},
-	"require": {
-		"twig/twig": "^3.3"
-	},
 	"scripts": {
 		"post-install-cmd": [
 			"mozart compose",
@@ -33,5 +30,8 @@
 			],
 			"delete_vendor_directories": true
 		}
+	},
+	"require": {
+		"twig/twig": "^3.3"
 	}
 }
