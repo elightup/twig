@@ -25,8 +25,8 @@
 	"extra": {
 		"mozart": {
 			"dep_namespace": "eLightUp\\",
-			"dep_directory": "/src/",
-			"classmap_directory": "/src/classes/",
+			"dep_directory": "/",
+			"classmap_directory": "/",
 			"classmap_prefix": "eLightUp_",
 			"packages": [
 				"twig/twig"

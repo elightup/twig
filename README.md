@@ -20,9 +20,12 @@ Run the following commands:
 
 ```
 composer require twig/twig
-mozart compose
 ```
 
 ## Usage
 
 Instead if use a `Twig` class like `Twig\ClassName`, you need to prepend `eLightup\` to the class name, e.g.: `eLightUp\Twig\ClassName`.
+
+## Notes
+
+The package includes a `twig.php` file, which acts like a plugin bootstrap file for WordPress. This helps you just enable this plugin inside WordPress for testing before bundling it into plugins.
