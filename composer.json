@@ -30,8 +30,5 @@
 			],
 			"delete_vendor_directories": true
 		}
-	},
-	"require": {
-		"twig/twig": "^3.3"
 	}
 }
