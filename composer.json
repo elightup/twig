@@ -11,11 +11,9 @@
 	},
 	"scripts": {
 		"post-install-cmd": [
-			"mozart compose",
 			"composer dump-autoload"
 		],
 		"post-update-cmd": [
-			"mozart compose",
 			"composer dump-autoload"
 		]
 	},

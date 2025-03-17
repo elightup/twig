@@ -3,7 +3,7 @@ This is a mirror of `twig/twig` which is used to prevent conflicts when other pl
 This package is used in:
 
 - [MB Views](https://metabox.io/plugins/mb-views/)
-- [Meta Box Builder](https://metabox.io/plugins/meta-box-builder/)
+- [MB Builder](https://metabox.io/plugins/meta-box-builder/)
 - [Slim SEO Schema](https://metabox.io/plugins/slim-seo-schema/)
 
 Making this package helps reduce duplication, especially in Meta Box AIO.
