@@ -209,7 +209,7 @@ function elightup_twig_split_filter(Environment $env, $value, $delimiter, $limit
  *
  * @deprecated since Twig 3.9
  */
-function twig_get_array_keys_filter($array)
+function elightup_twig_get_array_keys_filter($array)
 {
     trigger_deprecation('twig/twig', '3.9', 'Using the internal "%s" function is deprecated.', __FUNCTION__);
 
@@ -377,7 +377,7 @@ function elightup_twig_capitalize_string_filter(Environment $env, $string)
  *
  * @deprecated since Twig 3.9
  */
-function twig_test_empty($value)
+function elightup_twig_test_empty($value)
 {
     trigger_deprecation('twig/twig', '3.9', 'Using the internal "%s" function is deprecated.', __FUNCTION__);
 
@@ -389,7 +389,7 @@ function twig_test_empty($value)
  *
  * @deprecated since Twig 3.9
  */
-function twig_test_iterable($value)
+function elightup_twig_test_iterable($value)
 {
     trigger_deprecation('twig/twig', '3.9', 'Using the internal "%s" function is deprecated.', __FUNCTION__);
 
@@ -509,7 +509,7 @@ function elightup_twig_array_reduce(Environment $env, $array, $arrow, $initial =
  *
  * @deprecated since Twig 3.9
  */
-function twig_array_some(Environment $env, $array, $arrow)
+function elightup_twig_array_some(Environment $env, $array, $arrow)
 {
     trigger_deprecation('twig/twig', '3.9', 'Using the internal "%s" function is deprecated.', __FUNCTION__);
 
@@ -521,7 +521,7 @@ function twig_array_some(Environment $env, $array, $arrow)
  *
  * @deprecated since Twig 3.9
  */
-function twig_array_every(Environment $env, $array, $arrow)
+function elightup_twig_array_every(Environment $env, $array, $arrow)
 {
     trigger_deprecation('twig/twig', '3.9', 'Using the internal "%s" function is deprecated.', __FUNCTION__);
 
@@ -533,7 +533,7 @@ function twig_array_every(Environment $env, $array, $arrow)
  *
  * @deprecated since Twig 3.9
  */
-function twig_check_arrow_in_sandbox(Environment $env, $arrow, $thing, $type)
+function elightup_twig_check_arrow_in_sandbox(Environment $env, $arrow, $thing, $type)
 {
     trigger_deprecation('twig/twig', '3.9', 'Using the internal "%s" function is deprecated.', __FUNCTION__);
 
