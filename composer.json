@@ -7,7 +7,14 @@
 	"autoload": {
 		"psr-4": {
 			"eLightUp\\": "./"
-		}
+		},
+		"files": [
+			"src/deprecation-contracts.php",
+			"Symfony/Polyfill/Ctype/bootstrap.php",
+			"Symfony/Polyfill/Mbstring/bootstrap.php",
+			"Symfony/Polyfill/Php80/bootstrap.php",
+			"Symfony/Polyfill/Php81/bootstrap.php"
+		]
 	},
 	"scripts": {
 		"post-install-cmd": [
