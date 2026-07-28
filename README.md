@@ -4,9 +4,10 @@ This package is used in:
 
 - [MB Views](https://metabox.io/plugins/mb-views/)
 - [MB Builder](https://metabox.io/plugins/meta-box-builder/)
-- [Slim SEO Schema](https://metabox.io/plugins/slim-seo-schema/)
+- [Slim SEO](https://wpslimseo.com)
+- [Slim SEO Pro](https://wpslimseo.com/products/slim-seo-pro/)
 
-Making this package helps reduce duplication, especially in Meta Box AIO.
+Making this package helps reduce duplication, especially in [Meta Box AIO](https://metabox.io/aio/).
 
 To make it less confusing, the version of this package is the same as Twig.
 
