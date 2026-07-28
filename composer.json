@@ -9,11 +9,7 @@
 			"eLightUp\\": "./"
 		},
 		"files": [
-			"src/deprecation-contracts.php",
-			"Twig/Resources/core.php",
-			"Twig/Resources/debug.php",
-			"Twig/Resources/escaper.php",
-			"Twig/Resources/string_loader.php"
+			"src/deprecation-contracts.php"
 		]
 	},
 	"scripts": {
