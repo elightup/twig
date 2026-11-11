@@ -23,6 +23,11 @@ Run the following commands:
 composer require twig/twig
 ```
 
+Notes for the build:
+
+- Twig 3.11.3 is the last version that supports PHP 7.4 (3.12+ requires PHP 8). `config.platform.php` is set to 7.4 so Composer picks dependencies that run on PHP 7.4 (e.g. `symfony/deprecation-contracts` 2.5, not 3.x which uses the `mixed` type).
+- Twig 3.11.3 has security advisories that are fixed only in Twig 3.26+ (PHP 8.1+). Most affect the sandbox, which Meta Box plugins do not use, and templates are written by admins. `audit.block-insecure` is off so Composer can install it.
+
 ## Usage
 
 Instead if use a `Twig` class like `Twig\ClassName`, you need to prepend `eLightup\` to the class name, e.g.: `eLightUp\Twig\ClassName`.

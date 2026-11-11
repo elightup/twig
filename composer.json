@@ -2,7 +2,13 @@
 	"name": "elightup/twig",
 	"type": "library",
 	"config": {
-		"prepend-autoloader": false
+		"prepend-autoloader": false,
+		"platform": {
+			"php": "7.4"
+		},
+		"audit": {
+			"block-insecure": false
+		}
 	},
 	"autoload": {
 		"psr-4": {
